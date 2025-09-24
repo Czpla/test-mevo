@@ -110,10 +110,10 @@ Consulta o status de um job de processamento de CSV usando o `upload_id` retorna
 
 ## Configuração
 
-As configurações de banco de dados (`DATABASE_URI`) são carregadas a partir de um arquivo `.env` na raiz do projeto.
+As configurações de banco de dados (`MONGO_URI`) são carregadas a partir de um arquivo `.env` na raiz do projeto.
 
 Exemplo de arquivo `.env`:
 
 ```ini
-DATABASE_URI=mongodb://localhost/digital-prescriptions
+MONGO_URI=mongodb://localhost/digital-prescriptions
 ```
